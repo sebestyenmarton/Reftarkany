@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style__egyhazkozsegunkrol.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="icon" type="image/png" href="pic/k__icon__lightbrown.png">
+  <title>Köröstárkány-REF</title>
+</head>
+
+
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v10.0" nonce="FQyxgIi4"></script>
+
+  <!--------------------------NAV__LINKS / NAVBAR-------------------------------------------------------------------------------------------->
+  <div class="nav">
+    <div class="navbar">
+      <h4><b>
+        <div class="fulfilling-square-spinner" :style="spinnerStyle">
+          <div class="spinner-inner" :style="spinnerInnerStyle"></div>
+        </div>
+        <i id="k__icon" class="fab fa-kickstarter"></i>
+        öröstárkányi református </b><b>gyülekezet
+      </b></h4>
+      <b class="titleText__new" style="display: none;">köröstárkány</b>
+      <div class="mobil__icon">
+        <div class="fulfilling-square-spinner" :style="spinnerStyle">
+          <div class="spinner-inner" :style="spinnerInnerStyle"></div>
+        </div>
+        <i id="k__icon" class="fab fa-kickstarter"></i>
+        <b>REF</b>
+      </div>
+      <div class="radio">
+        <div class="radio__title"><br><b>HARANGSZÓ</b></br><b>RÁDIÓ</b></div>
+        <i id="play" class="fa fa-play-circle" aria-hidden="true" onclick="playRadio()"></i>
+        <i id="pause" class="fa fa-pause-circle" aria-hidden="true" onclick="pauseRadio()"></i>
+      </div>
+      <div class="icons">
+        <i id="line__icon" class="fad fa-grip-lines-vertical"></i>
+        <a id="facebook__icon" class="fab fa-facebook-square" href="https://www.facebook.com/groups/1590480657872653" style="color: #535353"></a>
+        <a id="youtube__icon" class="fab fa-youtube" href="https://www.youtube.com/channel/UCZ8RLE8Bel6hn0qFqY09VXw/videos?view=0&sort=p&flow=grid" style="color: #535353"></a>
+        <a id="user__icon" class="fa fa-user-circle" aria-hidden="true" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" ></a>
+      </div>
+    </div>
+    <ul class="nav__links">
+      <li class="l1" onclick="window.location.href='index.html'"><a class="a1">Főoldal</a></li>
+      <li class="l2" onclick="window.location.href='alkalmaink.html'" ><a class="a2">Alkalmaink</a></li>
+      <li class="l3" onclick="window.location.href='hirdetesek.html'"><a class="a3">Hírdetések</a></li>
+      <li class="l4" onclick="window.location.href='egyhazkozsegunkrol.html'"><a class="a4">Egyházköségünkről</a></li>
+      <li class="l5" onclick="window.location.href='felvetelek.html'"><a class="a5">Felvételek</a></li>
+      <li class="l6" onclick="window.location.href='elerhetoseg.html'"><a class="a6">Elérhetőség</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </div>
+
+  <!--------------------------NAV__LINKS / NAVBAR-------------------------------------------------------------------------------------------->
+  <!--------------------------TTITLE / CONTENT--------------------------------------------------------------------------------------------------->
+  <div class="first__mainpage"><h1>ÉN VAGYOK A VILÁG VILÁGOSSÁGA</h1></div>
+
+  <div class="content"></div>
+  <div class="gray__box"></div>
+  <main>
+    <div class="main__box">
+      <h1>A gyülekezet jelenlegi lelkipásztora</h1>
+      <img src="pic/laszlo.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="photo" class="right" >
+      <h2>Sebestyén László Ede</h2>
+      <p>1969 április 17.-én születtem az Arad megyei Kisjenőn. Nagykárolyban nőttem föl, ott is érettségiztem. Lelklipásztori szolgálatot 1995 szept.15.-étől, a kolozsvári teológiai tanulmányok befejezése után Hosszúmezőn végeztem, majd 2015 június 1-től Köröstárkányban végzek</p>
+      
+      <h1>A templom rövid története</h1>
+      <img src="pic/templom.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!"  id="photo" class="left" >
+      <h2>Köröstárkány és a templom</h2>
+      <p>Köröstárkány az 1332-es pápai tizedjegyzékben szerepel először Tharkan néven. A falu nevét valószínüleg egy török-tatár eredetű méltóságnévből kapta. 1422-ben színmagyar közösségként említik a feljegyzésekben. Az akkori templom gótikus stílusban épült. Freskói hasonlíthattak a magyarremetei templomban látható freskókhoz. Az egyházközségnek egy értékes harangja is volt, mely 1520-ban készült.</p>
+      <h2>Reformáció köröstárkányban</h2>
+      <p>A reformáció az 1500-as évek végén terjed el a környéken. Az új hit terjedéséhez a vidékről származó Belényesi Gergely, a Belényesen tanító Méliusz Juhász Péter és a városban szolgáló, korábban dunántúli püspök, Pathay István járultak hozzá tevékenyen. 1606-re Bethlen Gábor fejedelemsége idején Tárkány már teljesen református lesz és virágzó egyházi élettel rendelkezik. 1622-ben Körösi András a falu lelkipásztora. A közösséget sok csapás éri a következő évtizedekben török, német és sokszor a magyar is rabolja, a lakosságot a járványok pusztítják. A falu azonban Istenbe vetett hittel mindig talpra áll.</p>
+      
+      
+      <h2>Az új, jelenlegi templom</h2>
+      <p style="display: block" >   <img src="pic/templom 2.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="photo" class="right" >  
+        1841-ben határozták el, hogy a szűkösnek bizonyult régi templom helyett egy nagyobbat építenek. 1844-re készült el a templom, amit nem sokáig használhatnak, ugyanis 13 év múlva, 1857-ben leég. A templomot 1859-re újítják fel teljesen, bár a belső tér évekig készül. 1860-ban az alsó karat, 1869-ben pedig a felső karzat készül el. A padok és a karzatok mellvédjét 1870-ben festi le egy helyi mester sötétkék alapon színes virágos mintával. 
+        <br>A mai napig többszörös javításon megy keresztül a templom. Nagyobb méretű javítást 1924-ben eszközölnek rajta. Ekkor festik le egyszínű világos kékre a templom padjait. Az orgonát 1955-ben vásárolják a nagyvárad-olaszi egyházközségtől 150 évi használat után. A toronyban 2 harang szolgál. A kis-harang 1901-ből, a nagy-harang 1923-ból való volt, megrepedt, helyébe újat öntettünk 2017-ben.</br>
+      </p>
+      <h2>A gyülekezeti élet</h2>
+      <p> Egyházközségünkben a 282 családban 877 lélek van nyílvántartva. 
+        <br> <svg xmlns="http://www.w3.org/2000/svg" style="position: relative; top:24px; left: 20px" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg></i> Egy vasárnap délelőtti Istentiszteleten átlag 150-en, míg egy vasárnap délutáni Istentiszteleten átlag 55-en veszünk részt.</br>
+        <svg xmlns="http://www.w3.org/2000/svg" style="position: relative; top:24px; left: 20px" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>A gyülekezeti bibliaórákon átlag 19-en, az ifjúsági bibliaórákon átlag 16-an vesznek részt.
+        <br><svg xmlns="http://www.w3.org/2000/svg" style="position: relative; top:24px; left: 20px" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>A reggeli áhitatok alkalmain 7-10 személy szokott részt venni.</br>
+        <b style="text-indent: 2.5rem; font-weight: 600; padding-top: 20px">A hitoktatói szolgálatot az iskolában Halász Rozália vallástanárnő végzi, míg a gyülekezeti vallásórákat Sebestyén Anna-Enikő kántornő vezeti.
+        A konfirmációi előkészítés 3 csoportban zajlik a lelkipásztor vezetésével.</b>
+      </p>
+
+      <h2>Köröstárkányi reformátusként mi lehet a célom?</h2>
+      <p style="margin-bottom: 0rem;" >
+        Sokféle rohangálásom közepedte ott legyek, ahol lennem kell, azt tegyem, amit tennem kell!
+        <br>E közben Salamonnal együtt csodálkozzak rá Isten nagy tetteire s az Ő akaratához igazodó életemmel megtanuljam becsülni azt, ami örökké megmarad.</br>
+        <br>Minden más kiesik az idő rostáján, de az Ő szava megáll.</br>
+      </p>
+      <p>"Rájöttem, hogy mindaz, amit Isten tesz, örökké megmarad, nincs ahhoz hozzá tenni való és nincs belőle elvenni való. Azért rendezte Isten így, hogy féljék őt. Ami volt, régóta megvan és ami lesz, már régen megvolt, és az Isten előkeríti azt, ami tovatűnt." 
+        <br> <i> (Prédikátor 3,14-15) </i> </br></p>
+
+
+  <!--------------------------TTITLE / CONTENT--------------------------------------------------------------------------------------------------->
+  <!--------------------------FOOTER--------------------------------------------------------------------------------------------------->
+      <footer>
+        <div class="left"><a href="index.html" >© K.REF</a> 2021   by  <a class="footertext1" href="notfound.html" >Sebestyén Márton</a><a class="footertext2" href="notfound.html" >S.M.</a></div> 
+        <div class="right">
+          <a href="elerhetoseg.html" class="texteffect">Elérhetőség</a>
+            &
+          <a href="notfound.html" class="texteffect">Rólunk</a>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <!--------------------------NAPIIGE--------------------------------------------------------------------------------------------------->
+  <div class="napiige__container">
+    <svg class="heptagon" xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="#a2846990 " class="bi bi-heptagon-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.779.052a.5.5 0 0 1 .442 0l6.015 2.97a.5.5 0 0 1 .267.34l1.485 6.676a.5.5 0 0 1-.093.415l-4.162 5.354a.5.5 0 0 1-.395.193H4.662a.5.5 0 0 1-.395-.193L.105 10.453a.5.5 0 0 1-.093-.415l1.485-6.676a.5.5 0 0 1 .267-.34L7.779.053z"/></svg>
+    <div class="heptagon__text">
+      <b style="display: none;" >Napi</b>
+      <br><b><i>IGE</i></b></br>
+      <b style="display: none;" >és</b>
+    </div>
+    <b class="gondolatok" ><br>gondolatok</b></br>
+    <div class="napiige-box"></div>  
+    <div class="napiige-box1"></div>  
+    <div class="napiige-box2"></div>
+    <div class="napiige">
+      <div class="fb-post" 
+            data-href="https://www.facebook.com/napiigegondolat/posts/259221849019040"
+            data-width="350" style="width: 100%; height: 100%;">
+      </div>
+    </div>
+  </div>
+  <!--------------------------NAPIIGE-------------------------------------------------------------------------------------------------->
+  <!--------------------------FOOTER--------------------------------------------------------------------------------------------------->
+  <button id="scrollTopId" style="display: none; position:fixed; top:200px; right:0; left:100px; padding: 10px 50px; font-size: 30px; color:#157878; background-color: #ffc21c; z-index: 100;" ><b>scrollTop=</b></button>
+
+  <div class="gradient"></div>
+  <img src="pic/pic5b.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="body__image">
+  <audio id="radio" controls><source src="https://refszatmar.eu/audio/radioszatmar/harangszoradio_486.mp3" type="audio/mp3" id="h__radio__486"></audio>  <div class="radio__button__click"></div>  <i id="button__click" class="fas fa-pause" style="font-size: 18px"></i> 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    type="text/javascript"></script>  <script src="app.js"></script>
+    <div id="id01" class="modal">
+      <form id="id01__box" class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="pic/login3.svg" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+          <label for="uname"><b style="color: #f3f3f3">Felhasználónév:</b></label>
+          <input type="felhasznalonev" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b style="color: #f3f3f3">Jelszó:</b></label>
+          <input type="jelszo" placeholder="Enter Password" name="psw" required>
+          <button type="submit">Belépés</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> 
+            <b style="color: #f3f3f3; font-weight: 300;">Jegyezz meg</b>
+          </label>
+        </div>
+        <div class="container" style="background-color:#f3f3f3">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Mégsem</button>
+          <span class="psw">Elfelejtetted a <a href="notfound.html">jelszavadat?</a></span>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
