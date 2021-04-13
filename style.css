@@ -300,6 +300,9 @@ h4{
     width: auto;
     height: 100%;
   }
+  .mobil__icon.sticky.up{
+    top: -40px
+  }
 }
 @media screen and (max-width: 700px){
   .burger.sticky{

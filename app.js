@@ -57,7 +57,7 @@ $(document).ready(function () {
     } else{
       $('.burger .mobil__icon').removeClass("sticky__eltol");
     }
-    if (this.scrollY > 150) {
+    if (this.scrollY > 30) {
       $('.content').addClass("content__up");
       setTimeout(function(){
         $(".heptagon__title1, .heptagon__title2").css({color: "#ccaaaa"});
@@ -66,6 +66,13 @@ $(document).ready(function () {
         $(".heptagon__text b:first-child, .heptagon__text b:last-child").css({color: "#f3f3f3"});
         $(this).css({color: "#f3f3f3"});
       },1000);
+      setTimeout(function(){
+        $(".burger.sticky").css("top","9px");
+        $("i#play").css("right","70px");
+        $(".icons").css("opacity","0");
+        $(".radio__title").css("right","97px");
+        $(".mobil__icon.sticky").addClass("up");
+      },200);
     } else{
       $('.content').removeClass("content__up");
       setTimeout(function(){
@@ -74,6 +81,13 @@ $(document).ready(function () {
         $(".heptagon__title3, .heptagon__title4").css({color: "#ffffff"});
         $(".heptagon__title5, .heptagon__title6").css({color: "#f3f3f3"});
       },1000);
+      setTimeout(function(){
+        $(".burger.sticky").css("top","68px");
+        $("i#play").css("right","125px");
+        $(".icons").css("opacity","1");
+        $(".radio__title").css("right","152px");
+        $(".mobil__icon.sticky").removeClass("up");
+      },200);
     }
     if (this.scrollY > 450) {                                  /* A Footerek slideUp és slideDown mozgásai -Classokkal*/
       $('.footer__container').addClass("slideup");
