@@ -3,5 +3,5 @@
       -This is a project run by the Reformed Church :dove: in Köröstárkány.<br>
       -I am constantly developing and updating the website.<br>
       -Can be found on the following link: <br>
-      :eyes: http://www.reftarkany.hu/
+      :globe_with_meridians: http://www.reftarkany.hu/
 </b></h4>
