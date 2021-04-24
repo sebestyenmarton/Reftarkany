@@ -1141,7 +1141,7 @@ main{
 
 /* Full-width input fields */
 /*******************************LOGIN********************************/
-input[type=felhasznalonev], input[type=jelszo] {
+input[type=username], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1151,7 +1151,7 @@ input[type=felhasznalonev], input[type=jelszo] {
   background-color: #535353;
   color: #f4f4f4;
 }
-button {
+input[type=submit] {
   background-color: #157878;
   color: white;
   padding: 14px 20px;
@@ -1160,7 +1160,7 @@ button {
   cursor: pointer;
   width: 100%;
 }
-button:hover {
+input[type=submit]:hover {
   opacity: 0.8;
 }
 .cancelbtn {

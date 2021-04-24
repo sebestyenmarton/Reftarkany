@@ -212,20 +212,22 @@
   <img src="pic/pic9.png" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="body__image__fog">
   <audio id="radio" controls><source src="https://refszatmar.eu/audio/radioszatmar/harangszoradio_486.mp3" type="audio/mp3" id="h__radio__486"></audio>  <div class="radio__button__click"></div>  <i id="button__click" class="fas fa-pause" style="font-size: 18px"></i> 
     <script src="app.js"></script>
- 
+
 
     <div id="id01" class="modal">
-      <form id="id01__box" class="modal-content animate" action="/action_page.php" method="post">
+      <form id="id01__box" class="modal-content animate" action="#" method="post">
         <div class="imgcontainer">
           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
           <img src="pic/login5.svg" alt="Avatar" class="avatar">
         </div>
         <div class="container">
-          <label for="uname"><b style="color: #f3f3f3">Felhasználónév:</b></label>
-          <input type="felhasznalonev" placeholder="Enter Username" name="uname" required>
-          <label for="psw"><b style="color: #f3f3f3">Jelszó:</b></label>
-          <input type="jelszo" placeholder="Enter Password" name="psw" required>
-          <button type="submit">Belépés</button>
+          <label for="username"><b style="color: #f3f3f3">Felhasználónév:</b></label>
+          <input type="username" placeholder="Enter Username" name="username" required>
+
+          <label for="password"><b style="color: #f3f3f3">Jelszó:</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+
+          <input type="submit" placeholder="Belépés" name="submit" required>
           <label>
             <input type="checkbox" checked="checked" name="remember"> 
             <b style="color: #f3f3f3; font-weight: 300;">Jegyezz meg</b>
