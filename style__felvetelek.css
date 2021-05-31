@@ -853,7 +853,7 @@ polygon{
 }
 
 /******************                SZOLGALATOK - LINKEK                *****************/
-.youtube{
+#youtube{
   background-color: #d698810e;
   border-top: 0px;
   padding: 90px 20px 50px 20px;
@@ -863,7 +863,7 @@ polygon{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.youtube .linkbox{
+#youtube .linkbox{
   min-width: 250px;
   max-width: 300px;
   margin: 0 1rem 2rem 1rem;
@@ -872,22 +872,22 @@ polygon{
   background-color: #ffffff15;
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
 }
-.youtube .linkbox .cime__szolgal{
+#youtube .linkbox .cime__szolgal{
   color: #f4f4f4;
   font-size: 18px;
 	padding: 10px 20px 0 20px;
 	margin: 0;
 }
-.youtube .cime{
+#youtube .cime{
   text-decoration: underline;
   color: #ffcab7;
 }
-.youtube .datum__kategoria{
+#youtube .datum__kategoria{
   float: right;
   padding-right: 10px;
   color: #f5b9a5c0;
 }
-.youtube .datum{
+#youtube .datum{
   text-align: center;
 }
 
@@ -896,19 +896,19 @@ polygon{
   height: 200px;
 }
 @media screen and (max-width: 415px){
-  .youtube{
+  #youtube{
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 15px;
   }
 }
 @media screen and (max-width: 394px){
-  .youtube{
+  #youtube{
     margin-left: 33px;
   }
 }
 @media screen and (max-width: 370px){
-  .youtube{
+  #youtube{
     margin-left: 37px;
   }
 }
