@@ -118,7 +118,7 @@ $(document).ready(function () {
   /*********************FELVÉTELEK LINKSZŰRŐ + GÖRGETŐ*********************/ 
   $(".li1, .li2, .li3, .li4").click(function (){          /* Felvételekre kattintva automatikusScrolling jön létre */
     $('html, body').animate({
-        scrollTop: $(".youtube").offset().top
+        scrollTop: $("#youtube").offset().top
     }, 2000);
   });
   $(".li1").click(function(){
