@@ -1,116 +1,141 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style__felvetelek.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="pic/k__icon__orange.png" />
+    <title>REF-Szolgálatok</title>
+  </head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style__felvetelek.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="icon" type="image/png" href="pic/k__icon__orange.png">
-  <title>REF-Szolgálatok</title>
-</head>
-
-
-<body>
-  <div class="nav">
-    <div class="navbar">
-      <h4><b>
-        <div class="fulfilling-square-spinner" :style="spinnerStyle">
-          <div class="spinner-inner" :style="spinnerInnerStyle"></div>
-        </div>
-        <i id="k__icon" class="fab fa-kickstarter"></i>
-        öröstárkányi református </b><b>gyülekezet
-      </b></h4>
-      <b class="titleText__new" style="display: none;">köröstárkány</b>
-      <div class="mobil__icon">
-        <div class="fulfilling-square-spinner" :style="spinnerStyle">
-          <div class="spinner-inner" :style="spinnerInnerStyle"></div>
-        </div>
+  <body>
+    <div class="nav">
+      <div class="navbar">
+        <h4>
+          <b>
+            <div class="fulfilling-square-spinner" :style="spinnerStyle">
+              <div class="spinner-inner" :style="spinnerInnerStyle"></div>
+            </div>
+            <i id="k__icon" class="fab fa-kickstarter"></i>
+            öröstárkányi református </b
+          ><b>gyülekezet </b>
+        </h4>
+        <b class="titleText__new" style="display: none">köröstárkány</b>
+        <div class="mobil__icon">
+          <div class="fulfilling-square-spinner" :style="spinnerStyle">
+            <div class="spinner-inner" :style="spinnerInnerStyle"></div>
+          </div>
           <i id="k__icon" class="fab fa-kickstarter"></i>
-        <b>REF</b>
-      </div>
-    </div>
-    <ul class="nav__links">
-      <li class="l1" onclick="window.location.href='index.html'"><a class="a1">Főoldal</a></li>
-      <li class="l2" onclick="window.location.href='alkalmaink.html'" ><a class="a2">Alkalmaink</a></li>
-      <li class="l3" onclick="window.location.href='hirdetesek.html'"><a class="a3">Hírdetések</a></li>
-      <li class="l4" onclick="window.location.href='egyhazkozsegunkrol.html'"><a class="a4">Egyházköségünkről</a></li>
-      <li class="l5" onclick="window.location.href='felvetelek.html'"><a class="a5">Felvételek</a></li>
-      <li class="l6" onclick="window.location.href='elerhetoseg.html'"><a class="a6">Elérhetőség</a></li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </div>
-
-  <img src="pic/pic12.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="body__background__image">
-
-
-  <!--                  CONTENT                         -->
-  
-  <div class="contentpage">
-    <div class="szolgalatok__titlebox">
-      <div class="cim">
-        <b class="b__title">
-          SZOLGÁLATOK
-        </b>
-        <h3>
-          Gyülekezeti alkalmainkon készült hang- és videófelvételek
-        </h3>
-      </div>
-      <div class="box" style="margin-top: 50px;">
-        <div class="box__text">
-          <h1>Lábam előtt mécses a te igéd,</h1>
-          <h2> ösvényem világossága. </h2>
-          <h2><b style="font-size:1.5rem"><sup>(Zsolt 119,105)</sup></b></h2>
-        </div>
-        <img src="pic/pic10.jpg" alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!" id="body__image">
-      </div>
-      <div class="section__box">
-        <div class="section__box__header">
-          <ul>
-            <li class="li1"><a>Istentiszteletek</a></li>
-            <li class="li2"><a>Ifjúsági énekek</a></li>
-            <li class="li3"><a>Kórusénekek</a></li>
-            <li class="li4"><a>Áhitatok</a></li>
-          </ul>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="25 0 100 240" preserveAspectRatio="none" >
-            <polygon fill="#973c00" points="0,600 100,-20 200,100"/>
-            <b><div>FELVÉTELEK</div></b>
-          </svg>
+          <b>REF</b>
         </div>
       </div>
+      <ul class="nav__links">
+        <li class="l1" onclick="window.location.href='index.html'">
+          <a class="a1">Főoldal</a>
+        </li>
+        <li class="l2" onclick="window.location.href='alkalmaink.html'">
+          <a class="a2">Alkalmaink</a>
+        </li>
+        <li class="l3" onclick="window.location.href='hirdetesek.html'">
+          <a class="a3">Hírdetések</a>
+        </li>
+        <li class="l4" onclick="window.location.href='egyhazkozsegunkrol.html'">
+          <a class="a4">Egyházköségünkről</a>
+        </li>
+        <li class="l5" onclick="window.location.href='felvetelek.html'">
+          <a class="a5">Felvételek</a>
+        </li>
+        <li class="l6" onclick="window.location.href='elerhetoseg.html'">
+          <a class="a6">Elérhetőség</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
 
-      <script src="app.js"></script>
-      <script src="youtube_linkek/adatok_a_felvetelekhez.js"></script>
+    <img
+      src="pic/pic12.jpg"
+      alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!"
+      id="body__background__image"
+    />
 
-      <div id="pagination">
-			</div>
-      <div id="youtube"></div>
-      <div id="pagination">
-			</div>
-<!--       <audio controls>
+    <!--                  CONTENT                         -->
+
+    <div class="contentpage">
+      <div class="szolgalatok__titlebox">
+        <div class="cim">
+          <b class="b__title"> SZOLGÁLATOK </b>
+          <h3>Gyülekezeti alkalmainkon készült hang- és videófelvételek</h3>
+        </div>
+        <div class="box" style="margin-top: 50px">
+          <div class="box__text">
+            <h1>Lábam előtt mécses a te igéd,</h1>
+            <h2>ösvényem világossága.</h2>
+            <h2>
+              <b style="font-size: 1.5rem"><sup>(Zsolt 119,105)</sup></b>
+            </h2>
+          </div>
+          <img
+            src="pic/pic10.jpg"
+            alt="HIBA!!! INNEN HIÁNYZIK A HÁTTÉRKÉP!!!"
+            id="body__image"
+          />
+        </div>
+        <div class="section__box">
+          <div class="section__box__header">
+            <ul>
+              <li class="li1"><a>Istentiszteletek</a></li>
+              <li class="li2"><a>Ifjúsági énekek</a></li>
+              <li class="li3"><a>Kórusénekek</a></li>
+              <li class="li4"><a>Áhitatok</a></li>
+            </ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="25 0 100 240"
+              preserveAspectRatio="none"
+            >
+              <polygon fill="#973c00" points="0,600 100,-20 200,100" />
+              <b><div>FELVÉTELEK</div></b>
+            </svg>
+          </div>
+        </div>
+
+        <script src="app.js"></script>
+        <script src="youtube_linkek/adatok_a_felvetelekhez.js"></script>
+
+        <div id="pagination"></div>
+        <div id="youtube"></div>
+        <div id="pagination"></div>
+        <!--       <audio controls>
         <source src="https://refszatmar.eu/audio/radioszatmar/harangszoradio_486.mp3" type="audio/mp3">
         A böngésződ nem támogatja a rádiólejátszót. 
       </audio> -->
-      
-      <footer>
-        <div class="left">© <a class="texteffect" href="index.html" >K.REF</a> 2021   by  Sebestyén Márton</div> 
-        <div class="right">
-          <a href="elerhetoseg.html" class="texteffect">Elérhetőség</a>
-            &
-          <a href="elerhetoseg.html" class="texteffect">Rólunk</a>
-        </div>
-      </footer>
-    </div>
-  </div>
-  <!-- 
-   
-  -->
 
-</body>
+        <footer>
+          <div class="left">
+            © <a class="texteffect" href="index.html">K.REF</a> 2021 by
+            Sebestyén Márton
+          </div>
+          <div class="right">
+            <a href="elerhetoseg.html" class="texteffect">Elérhetőség</a>
+            &
+            <a href="elerhetoseg.html" class="texteffect">Rólunk</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- 
+   
+  --></body>
 </html>
